@@ -1,0 +1,267 @@
+/*BACKGROUND */ 
+body {
+    background-image: url("https://31.media.tumblr.com/0c08f43d2f75f061d0142ca519e16478/tumblr_mr2ze7GhPn1syf8l1o1_400.gif");
+  } 
+
+  .rain {
+    display: flex;
+    flex: wrap;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  #r1 {
+    padding: none;
+    animation: fall 10s infinite, swing 15s ;
+  }
+  
+  #r2 {
+    padding: none;
+    animation: fall 26s infinite, swing 28s;
+  }
+  
+  #r3 {
+    padding: none;
+    animation: fall 48s infinite, swing 50s  ;
+  }
+  
+  #r4 {
+  padding: none;
+    animation: fall 25s infinite, swing 30s ;
+  }
+  
+  #r5 {
+    padding: none;
+    animation: fall 29s infinite, swing 35s;
+  }
+  
+  #r6 {
+    padding: none;
+    animation: fall 12s infinite, swing 22s ;
+  }
+  
+  #r7 {
+    padding: none;
+    animation: fall 32s infinite, swing 25s infinite ;
+  }
+  
+  #r8 {
+    padding: none;
+    animation: fall 25s infinite, swing 27s  ;
+  }
+  
+  #r9 {
+    padding: none;
+    animation: fall 39s infinite, swing 40s ;
+  }
+  
+  #r10 {
+      padding: none;
+    animation: fall 39s infinite, swing 40s ;
+  }
+  
+  #r11 {
+      padding: none;
+    animation: fall 39s infinite, swing 40s ;
+  }
+  
+  @keyframes fall{
+    from{top:-10%;}
+      to{top:110%;}
+  }
+  @keyframes swing{
+      from{transform: translateX(-400px);}
+      to{transform: translateX(200px);}
+  
+  }
+
+  .insta {
+      height: 50px;
+      width: 50px; 
+      float: right;
+      padding: 0 20px;
+      padding-right: 22px;
+  }
+  
+  .insta:hover {
+      opacity: 50%;
+      color: white;
+  }
+  
+  section {
+      font-family: 'Prompt' , 'sans-serif';
+      font-size: large;
+      font-weight: 700;
+      color: #c76392;
+      opacity: 80%;
+      background-color: #000D1A;
+      width: 75%;
+      margin: auto;
+      font-style: italic;
+      text-align: center;
+      padding-top: 10px;
+  } 
+  
+  img {
+      height: 550px;
+      padding: 0 5%;
+  }
+  
+  #img1:hover {
+      border: 5px solid #B270E0;
+      
+  }
+  
+  #img2:hover {
+      border: 5px solid #B270E0;
+  }
+  
+  #img3:hover {
+      border: 5px solid #B270E0;
+  }
+  
+  #img4:hover {
+      border: 5px solid #B270E0;
+  }
+  
+  #img5:hover {
+      border: 5px solid #B270E0;
+  }
+  
+  #img6:hover {
+      border: 5px solid #B270E0;
+  }
+  
+  div.grid{
+      display: grid;
+      width: 80%;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr;
+      padding-top: 20px;
+      padding-left: 65px;
+      grid-gap: 8px;
+  }  
+
+.insta {
+    height: 50px;
+    width: 50px; 
+    float: right;
+    padding: 0px 20px;
+    padding-right: 22px;
+}
+
+.insta:hover {
+    opacity: 50%;
+    color: white;
+}
+
+section {
+    font-family: 'Prompt' , 'sans-serif';
+    font-size: large;
+    font-weight: 700;
+    color: #c76392;
+    opacity: 80%;
+    background-color: rgba(25, 25, 25, 4);
+    width: 75%;
+    margin: auto;
+    font-style: italic;
+    text-align: center;
+    padding-top: 10px;
+} 
+
+div.grid{
+  display: grid;
+  width: 60%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  padding: 0% 15%;
+  grid-gap: 15px;
+ /* overflow: scroll;
+  scroll-behavior: smooth; */
+}
+
+#trad-media-title {
+  font-family: 'Prompt';
+  font-weight: 400;
+  background-color: hsla(300, 100%, 30%, .3);
+  width: 20%;
+  border-radius: 10px; 
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  back
+}
+
+#dig-media-title {
+  font-family: 'Prompt';
+  font-weight: 400;
+  background-color: hsla(300, 100%, 30%, .3);
+  width: 20%;
+  border-radius: 10px; 
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+
+}
+/* THUMBAIL  
+div.thumbnail {
+  margin-top: .6rem;
+  margin-left: .3rem;
+  display: inline-flex;
+  padding: 0 30%;
+}
+
+div a img {
+  height: 20rem;
+  
+}
+*/
+img {
+    height: 400px;
+    transition: transform .2s;  /*for the smooth animation of the zoom*/
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#img1:hover {
+    border: 5px solid #B270E0;
+    transform: scale(1.3); */
+}
+
+#img2:hover {
+    border: 5px solid #B270E0;
+    transform: scale(1.3);
+
+}
+
+#img3:hover {
+    border: 5px solid #B270E0;
+    transform: scale(1.3);
+  }
+
+#img4:hover {
+    border: 5px solid #B270E0;
+    transform: scale(1.3);
+}
+
+#img5:hover {
+    border: 5px solid #B270E0;
+    transform: scale(1.3);
+
+}
+
+#img6:hover {
+    border: 5px solid #B270E0;
+    transform: scale(1.3);
+}
+
+
+footer {
+  font-family: 'Prompt';
+  font-weight: 200;
+  font-size: 18px;
+  display: flex;
+  justify-content: right;
+  color: #B270E0;
+}
